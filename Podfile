@@ -14,9 +14,30 @@ def testing_pods
 end
 
 target 'clean-architecture-ios' do
-  rx
-  target 'clean-architecture-iosTests' do
-    inherit! :search_paths
-    testing_pods
-  end
+    rx
+    target 'clean-architecture-iosTests' do
+        inherit! :search_paths
+        testing_pods
+    end
 end
+
+target 'data' do
+    rx
+    pod 'Alamofire'
+    pod 'RxAlamofire'
+    pod 'ObjectMapper'
+    pod 'AlamofireObjectMapper'
+    target 'dataTests' do
+        inherit! :search_paths
+        testing_pods
+    end
+end
+
+target 'domain' do
+    rx
+    target 'domainTests' do
+        inherit! :search_paths
+        testing_pods
+    end
+end
+
