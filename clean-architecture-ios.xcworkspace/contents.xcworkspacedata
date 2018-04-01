@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Cleanse/Cleanse.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:clean-architecture-ios.xcodeproj">
    </FileRef>
    <FileRef
