@@ -1,0 +1,3 @@
+[submodule "Cleanse"]
+	path = Cleanse
+	url = https://github.com/square/Cleanse.git
