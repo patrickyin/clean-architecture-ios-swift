@@ -1,0 +1,3 @@
+protocol ArticlesView {
+    func login()
+}

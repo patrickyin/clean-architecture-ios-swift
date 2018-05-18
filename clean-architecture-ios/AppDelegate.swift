@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  clean-architecture-ios
-//
-//  Created by Patrick Yin on 1/4/18.
-//  Copyright © 2018 Patrick Yin. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
